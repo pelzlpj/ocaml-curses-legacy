@@ -1,0 +1,9 @@
+These curses bindings for OCaml are derived from the Objective Caml Text Mode
+Kit (ocaml-tmk).  This code is released under the GNU LGPL; for details,
+see 'COPYING'.
+
+The ocaml-tmk project may be found at http://www.nongnu.org/ocaml-tmk/ .
+
+
+
+# arch-tag: DO_NOT_CHANGE_462d13eb-d2c3-405a-8dca-8204539772d0 
