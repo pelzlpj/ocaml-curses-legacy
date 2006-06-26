@@ -165,6 +165,7 @@ BEG1 short x,y; if(pair_content(Int_val(aa),&y,&x)==ERR) x=y=-1;
   r_int_int(x,y); END
 ML0d(colors,int) BEG0 r_int(COLORS); END
 ML0d(color_pairs,int) BEG0 r_int(COLOR_PAIRS); END
+ML0(use_default_colors,err)
 
 /* delch */
 
