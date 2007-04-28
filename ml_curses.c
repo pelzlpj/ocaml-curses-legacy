@@ -6,10 +6,14 @@
 #include <stdio.h>
 #include <unistd.h>
 
+#ifdef CURSES_HEADER
+#include CURSES_HEADER
+#else
 #ifdef HAVE_NCURSES_H
 #include <ncurses.h>
 #else
 #include <curses.h>
+#endif
 #endif
 
 #include <term.h>
